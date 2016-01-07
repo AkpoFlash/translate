@@ -73,5 +73,6 @@ input_file.close()
 
 output_file = open("output.txt", "w", encoding="utf-8")
 output_file.write(read_file.translate(translation_map))
+output_file.close()
 
 input("End of program")
